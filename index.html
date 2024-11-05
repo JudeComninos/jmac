@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Meyer Art Center</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: white; 
+            color: black; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; 
+            margin: 0; 
+            font-family: Arial, sans-serif;
+            overflow: hidden; 
+            padding: 0 1em; 
+        }
+
+        .container {
+            text-align: center;
+            padding: 1em; 
+        }
+
+        img {
+            max-width: 70%; 
+            height: auto;
+            margin-bottom: 0.5em; 
+        }
+
+        .contact-details {
+            margin-top: 0.5em; 
+        }
+        .contact-details h2 {
+            margin-bottom: 0.5em; 
+            font-size: 2.5rem; 
+        }
+
+        .contact-details p {
+            margin: 0.5em 0;
+            font-size: 1.2rem;
+        }
+
+        .contact-details a {
+            margin: 0 0.5em; 
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .contact-details h2 {
+                font-size: 2rem; 
+            }
+
+            .contact-details p {
+                font-size: 1.2rem; 
+            }
+
+            img {
+                max-width: 80%; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="jmac.jpg" alt="Jack Meyer Art Center">
+
+        <div class="contact-details">
+            <h2>Contact Us</h2>
+            <a href="https://www.facebook.com/jackmeyerartcentre">
+                <img src="fb.jpg" alt="Facebook" style="width:42px;height:42px;">
+            </a>
+            <a href="https://www.instagram.com/jackmeyerartcentre">
+                <img src="insta.png" alt="Instagram" style="width:42px;height:42px;">
+            </a>
+            <p><strong>Address:</strong> 6 Hospital St, Lemoenkloof, Paarl, 7646</p>
+            <p><strong>Phone:</strong> 021 872 2095</p>
+            <p><strong>Email:</strong> jmacartfund@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
